@@ -1,49 +1,24 @@
-# GENERAL
-
-title:               Git Micrometer
-tagline:             'Measure your git commits'
-description:         'Provides a summary of individuals contribution to a repo.'
-url:                 ngeorge.us/git_micrometer
-author:
-  name:              Nate George
-  url:               ngeorge.us/git_micrometer
-
-# MENU
-
-menu:
-  - href:			/
-    text:			Home
-    icon:     home
-  - href:			/blog
-    text:			Blog
-    icon:     pencil
-  - href:			/about
-    text:			About
-    icon:     info-circle
-
-# SOCIAL
-
-social:
-  - href:			#
-    icon:			youtube
-  - href:			#
-    icon:			twitter
-  - href:			#
-    icon:			github
-  - href:			#
-    icon:			envelope
-  - href:			http://www.yourprojectdomain.com/atom.xml
-    icon:			rss
-
-# ACCOUNTS
-
-# webmasterID: 		0000000000000000000000000000000000000000
-
-# OTHER
-
-baseurl:             	/
-permalink:           	/blog/:categories/:title/
-paginate:				5
-paginate_path:			/blog/page:num/
-markdown:            	redcarpet
-highlighter:         	pygments
+full_rebuild: true
+name: Application Documentation Template
+author: Research Applications
+version: V 1.0
+encoding: utf-8
+defaults:
+  -
+    values:
+      layout: "index"
+markdown: kramdown
+kramdown:
+  input: GFM
+relative_permalinks: false
+collections:
+- entries
+sass:
+  sass_dir: _sass
+  style: :compressed
+exclude: [
+.git,
+.gitignore,
+README.md,
+.sass-cache
+]
