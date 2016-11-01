@@ -1,3 +1,8 @@
+# quantifies relative contributions to a github repo on a per-user basis
+# uses PyGithub: https://github.com/PyGithub/PyGithub
+# docs: http://pygithub.readthedocs.io/en/latest/introduction.html
+# example I used to get here: https://gist.github.com/rmcgibbo/3433798
+
 from github import Github, Repository
 import os
 
