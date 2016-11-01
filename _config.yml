@@ -1,12 +1,12 @@
 # GENERAL
 
-title:               Your Title
-tagline:             'Your Tagline'
-description:         'Your Description'
-url:                 www.yourprojectdomain.com
+title:               Git Micrometer
+tagline:             'Measure your git commits'
+description:         'Provides a summary of individuals contribution to a repo.'
+url:                 ngeorge.us/git_micrometer
 author:
-  name:              Your Name
-  url:               www.yourwebsite.com
+  name:              Nate George
+  url:               ngeorge.us/git_micrometer
 
 # MENU
 
@@ -43,7 +43,6 @@ social:
 
 baseurl:             	/
 permalink:           	/blog/:categories/:title/
-relative_permalinks: 	true
 paginate:				5
 paginate_path:			/blog/page:num/
 markdown:            	redcarpet
