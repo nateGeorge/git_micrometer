@@ -24,11 +24,11 @@ commits = list(repo.get_commits())
 authors = []
 additions = []
 for commit in commits:
-    print commit
+    #print commit
     if commit.author is not None:
         author = commit.author.login # get's user name
         addition = commit.stats.additions # gets number of lines added)
-        print author, addition
+        #print author, addition
         authors.append(author)
         additions.append(addition)
 
